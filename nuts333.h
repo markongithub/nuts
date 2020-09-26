@@ -298,5 +298,5 @@ int charecho_def,time_out_maxlevel;
 time_t rs_announce,rs_which;
 UR_OBJECT rs_user;
 
-extern char *sys_errlist[];
+extern __const char *__const sys_errlist[];
 char *long_date();
